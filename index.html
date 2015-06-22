@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>McMaster Undergraduate Physics Society</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="style.css">
+	<?php $page="home.html"; ?>
+</head>
+<div class="container">
+	<nav class="navbar navbar-custom">
+	  	<div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    	<div class="navbar-header">
+	      		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        		<span class="sr-only">Toggle navigation</span>
+	        		<span class="icon-bar"></span>
+	        		<span class="icon-bar"></span>
+	        		<span class="icon-bar"></span>
+	     	 	</button>
+		      	<a class="navbar-brand" href="#"></a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		    	<ul class="nav navbar-nav">
+		        	<li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span> &nbsp; Home</a></li>
+		        	<li class="dropdown">
+		          		<a href="aboutus.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us<span class="caret"></span></a>
+		          		<ul class="dropdown-menu">
+		            		<li><a href="aboutus.html">MUPS</a></li>
+		            		<li><a href="aboutus.html#execs">Current Exucutives</a></li>
+		            		<li><a href="aboutus.html#join_us">Join Us</a></li>
+		          		</ul>
+			        </li>
+			        <li class="dropdown">
+		          		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events<span class="caret"></span></a>
+		          		<ul class="dropdown-menu">
+		            		<li><a href="#main_dishes">Undergraduate Colloquia</a></li>
+		            		<li><a href="#sides">CUPC</a></li>
+		            		<li><a href="#desserts">Calender</a></li>
+		            		<li><a href="#">News</a></li>
+		          		</ul>
+			        </li>
+			        <li class="dropdown">
+		          		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs<span class="caret"></span></a>
+		          		<ul class="dropdown-menu">
+		            		<li><a href="#main_dishes" target="maintext">Programs</a></li>
+		            		<li><a href="#sides">Courses</a></li>
+		          		</ul>
+			        </li>
+			        <li><a href="#">Physics Help Initiative</a></li>
+		        	<li class="dropdown">
+		          		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Physics Department<span class="caret"></span></a>
+		          		<ul class="dropdown-menu">
+		            		<li><a href="#main_dishes" target="maintext">Department Website</a></li>
+		            		<li><a href="#sides"></a></li>
+		            		<li><a href="#desserts">Colloquia</a></li>
+		            		<li><a href="#">W.J McCallion PLanetarium</a></li>
+		            		<li><a href="#">Sidewalk Astronomy</a></li>
+		            		<li><a href="#">NSERC USRA Information (pdf)</a></li>
+		          		</ul>
+			        </li>
+			       	<li><a href="#">Contact Us</a></li>
+			  	</ul>
+		    </div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+</div>
+<body>
+	<div class="jumbotron">
+		<div class="container">
+			<h2>We Are Physics</h2>
+			<p>Welcome to the McMaster Undergraduate Physics Society (MUPS) website </p>
+			<div class="btn btn-primary">About Us</div>
+		</div>
+	</div>
+	<div class="container"
+		<div class="rows">
+			<div class="col-md-5" id="phibox">
+				<div class="homebox">
+					<img src="phi_logo.png" alt="image" width="100%" height="350px">
+				</div>
+			</div>
+			<div class="col-md-5" id="eventbox" onmouseover="changeColor();">
+				<div class="homebox2" style="background-color:green">
+					<h2 class="centered">Events</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="rows">
+			<div class="col-md-5" id="progambox">
+				<div class="homebox3" style="background-color:orange">
+					<h2 class="centered">Programs</h2>
+				</div>
+			</div>
+			<div class="col-md-5" id="ugbox">
+				<div class="homebox3" style="background-color:purple">
+					<h2 class="centered">News</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script src="custom.js"></script>
+</body>
+</html>
